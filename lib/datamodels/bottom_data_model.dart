@@ -1,0 +1,1 @@
+import 'package:flutter/cupertino.dart';class BottomDataModel {  final String title;  final IconData icon;  final bool isSelected;  BottomDataModel({this.title, this.icon, this.isSelected});}

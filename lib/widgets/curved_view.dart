@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class CurvedView extends StatelessWidget {  CurvedView({Key key, this.child})      : assert(child != null),        super(key: key);  final Widget child;  @override  Widget build(BuildContext context) {    return ClipRRect(      borderRadius: BorderRadius.circular(16.0),      child: child,    );  }}

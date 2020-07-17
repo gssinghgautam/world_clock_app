@@ -1,0 +1,1 @@
+class ClockItemModel {  final String cityName;  final double lat;  final double lng;  final String timeZoneId;  final String countryName;  final DateTime currentTime;  final int utcOffset;  ClockItemModel({    this.cityName,    this.lat,    this.lng,    this.timeZoneId,    this.countryName,    this.currentTime,    this.utcOffset,  });}

@@ -1,0 +1,1 @@
+const String HomeRoute = '/home';const String AddCity = '/addcity';const String Settings = '/settings';

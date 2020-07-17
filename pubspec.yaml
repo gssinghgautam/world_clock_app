@@ -1,0 +1,48 @@
+name: world_clock_app
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  provider_architecture:
+  get_it:
+  responsive_builder: ^0.1.4
+  provider: ^3.0.1
+  http: ^0.12.0+3
+  flutter_svg: ^0.15.0
+  flutter_google_places:
+    path: ./flutter_google_places
+  timezone: ^0.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - packages/timezone/data/2019c.tzf
+
+  fonts:
+    - family: Aileron
+      fonts:
+        - asset: assets/fonts/Aileron-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Aileron-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Aileron-Regular.otf
+          weight: 400
+
+    - family: FLUTTERICON
+      fonts:
+        - asset: assets/fonts/flutter_icon.ttf
